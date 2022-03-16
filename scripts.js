@@ -1,9 +1,11 @@
+let sum = 0;
 let n = 5;
 let i = n;
-let sum = "";
+let str = "";
 
 for (let i = 1; i <= 5; i++) {
-  sum = sum + i;
+  str = str + i;
+  sum = str;
 }
 
 console.log(sum);
